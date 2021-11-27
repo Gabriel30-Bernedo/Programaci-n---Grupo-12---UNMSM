@@ -476,7 +476,7 @@ row.names(mtcars)[which(mtcars$cyl == 4)]
 ### c. Autos que pesen más de 2500 libras y tengan transmisión manual.
 
 ``` r
-row.names(mtcars)[which(mtcars$wt >2,5 & mtcars$am =="1")]
+row.names(mtcars)[which(mtcars$wt >2.5 & mtcars$am =="1")]
 ```
 
     ##  [1] "Mazda RX4"           "Mazda RX4 Wag"       "Datsun 710"         
